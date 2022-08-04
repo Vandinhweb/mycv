@@ -1,0 +1,40 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#container {
+}
+h1 {
+  color: blue;
+}
+.flag img {
+  width: 20%;
+  height: auto;
+}
+.p-num {
+  display: block;
+  line-height: 0.7;
+  font-size: 1.2em;
+  padding: 0;
+  margin: auto;
+  flex-shrink: 0;
+}
+.num-tim {
+  width: 2.5em;
+  height: 2.5em;
+  border: 1px solid #495057;
+  background-color: #748ffc;
+  border-radius: 50%;
+  display: flex;
+  padding: auto;
+  align-items: center;
+}
+
+.col-2 {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+.text-tim {
+  border-bottom: 1px dashed #2b8a3e;
+}
